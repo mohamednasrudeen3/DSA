@@ -1,4 +1,4 @@
-package NasruPracticeforDSA;
+package NasruPracticeforDSA.LeetCode;
 
 public class TestFile {
 
