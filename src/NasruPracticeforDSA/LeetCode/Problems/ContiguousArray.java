@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ContiguousArray {
-    public int findMaxLength(int[] nums) {
+    public static int findMaxLength(int[] nums) {
         // Create a hash map to store the sum so far (key) and its index (value).
         Map<Integer, Integer> sumToIndexMap = new HashMap<>();
 
@@ -34,6 +34,8 @@ public class ContiguousArray {
     }
 
     public static void main(String[] args) {
+        int[] nums = {0,1,1,1,1,1,0,0,0};
+        findMaxLength(nums);
 
     }
 }
