@@ -11,11 +11,14 @@ public class bsTree {
         }
     }
     bsTree(int val){
-        root=new Node(val);
+
+        root = new Node(val);
     }
     public Node insert(int val){
         return insert(root, val);
     }
+
+
     public Node insert(Node root,int val) {
         if(root==null){
             return new Node(val);
@@ -84,11 +87,11 @@ return root;
 
         tree.insert(9);
 
-tree.delete(9);
+        tree.delete(9);
         tree.delete(10);
         tree.delete(8);
         tree.delete(19);
-tree.inOrder(tree.root);
+    tree.inOrder(tree.root);
 
     }
 
