@@ -1,4 +1,4 @@
-package NasruPracticeforDSA.multithearding;
+package NasruPracticeforDSA.multithearding.brocode;
 
 public class MyRunnable  implements Runnable{
     public void run(){

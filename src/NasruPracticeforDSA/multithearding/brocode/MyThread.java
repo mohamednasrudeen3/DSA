@@ -1,6 +1,4 @@
-package NasruPracticeforDSA.multithearding;
-
-import org.w3c.dom.ls.LSOutput;
+package NasruPracticeforDSA.multithearding.brocode;
 
 public class MyThread extends Thread{
     @Override
