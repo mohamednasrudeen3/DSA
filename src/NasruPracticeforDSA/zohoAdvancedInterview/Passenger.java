@@ -18,8 +18,8 @@ public class Passenger {
     }
     @Override
     public String toString(){
-return "TicketId: "+ ticketId+ ", Gender :"+gender+", Age"+age+", Name :"+name+", Berth Preferrence :"+berthPreference+
-        ", allotted BErth :"+allottedBerth;
+return "TicketId: "+ ticketId + ", Gender :"+gender+", Age: "+age+", Name :"+name+", Berth Preferrence :"+berthPreference+
+        ", allotted Berth: "+allottedBerth;
     }
 
 }

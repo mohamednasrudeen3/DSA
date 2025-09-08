@@ -12,10 +12,11 @@ public class TicketSystem {
     public void bookTicket(String name, int age, String gender, String berthPreference) {
         String ticketId = "T" + ticketCounter++;
         Passenger passenger;
+//        racQueue.
 
         if (!availableBerths.isEmpty()) {
             String allocatedBerth = allocateBerth(age, gender, berthPreference);
-            passenger = new Passenger(name, age, gender, berthPreference, allocatedBerth, ticketId);
+            passenger = new Passenger(name, age, gender, berthPreference,  ticketId,allocatedBerth);
             confirmedPassengers.add(passenger);
             availableBerths.remove(allocatedBerth);
             System.out.println("Ticket confirmed: " + passenger);
