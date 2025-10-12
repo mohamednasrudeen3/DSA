@@ -43,10 +43,6 @@ public class TaxiBookingSystem {
                     System.out.println("enter Valid Choice");
             }
         }
-
-
-
-
     }
 
     private static void bookTaxi() {

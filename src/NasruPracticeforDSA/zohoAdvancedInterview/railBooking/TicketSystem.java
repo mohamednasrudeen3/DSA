@@ -9,7 +9,7 @@ public class TicketSystem {
     private final List<Passenger> confirmedPassengers = new ArrayList<>();
     private int ticketCounter = 1;
 
-    public void bookTicket(String name, int age, String gender, String berthPreference) {
+    public void bookTicket(String name, int age, String gender, String berthPreference){
         String ticketId = "T" + ticketCounter++;
         Passenger passenger;
 //        racQueue.
@@ -21,11 +21,11 @@ public class TicketSystem {
             availableBerths.remove(allocatedBerth);
             System.out.println("Ticket confirmed: " + passenger);
         } else if (racQueue.size() < 1) {
-            passenger = new Passenger(name, age, gender, berthPreference, "RAC", ticketId);
+            passenger = new Passenger(name, age, gender, berthPreference, ticketId, "RAC");
             racQueue.offer(passenger);
             System.out.println("Ticket in RAC: " + passenger);
         } else if (waitingListQueue.size() < 1) {
-            passenger = new Passenger(name, age, gender, berthPreference, "Waiting List", ticketId);
+            passenger = new Passenger(name, age, gender, berthPreference, ticketId, "Waiting List");
             waitingListQueue.offer(passenger);
             System.out.println("Ticket in Waiting List: " + passenger);
         } else {
