@@ -1,4 +1,4 @@
-package NasruPracticeforDSA.zohoAdvancedInterview;
+package NasruPracticeforDSA.zohoAdvancedInterview.railBooking;
 
 public class Passenger {
     String name;

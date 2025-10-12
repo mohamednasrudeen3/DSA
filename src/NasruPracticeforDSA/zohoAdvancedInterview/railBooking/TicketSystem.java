@@ -1,4 +1,4 @@
-package NasruPracticeforDSA.zohoAdvancedInterview;
+package NasruPracticeforDSA.zohoAdvancedInterview.railBooking;
 
 import java.util.*;
 

@@ -39,7 +39,7 @@ public class Example4 {
 
     public static void main(String[] args) {
 
-        List<String> input = Arrays.asList("abc","ab","xy");
+        List<String> input = Arrays.asList("abc","ab","xy","");
         System.out.println(input);
         System.out.println(decode(encode(input)));
 
