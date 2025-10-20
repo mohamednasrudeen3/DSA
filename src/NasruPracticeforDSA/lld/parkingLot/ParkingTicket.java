@@ -17,7 +17,7 @@ public class ParkingTicket {
         this.vehicle=vehicle;
     }
 
-    public void setExitTimeStamp(){
+    public void setExitTime(){
         this.exitTime= LocalDateTime.now();
     }
 
