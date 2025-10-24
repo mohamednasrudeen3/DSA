@@ -1,0 +1,75 @@
+
+IMPORTANT INTERVIEW QUESTIONS
+1. Filter all even numbers from a list->solved
+2. Filter all odd numbers from a list-> solved
+3. Find the maximum number in a list
+4. Find the minimum number in a list
+5. Find the sum of all numbers in a list
+6. Count the number of elements in a list
+7. Remove duplicate elements from a list
+8. Sort a list of numbers in ascending order
+9. Sort a list of numbers in descending order
+10. Map numbers to their squares (or cubes)
+11. Filter strings based on length or prefix (e.g., length > 5, starts with "A")
+12. Count the occurrences of each element in a list
+13. Find all numbers greater than the average
+14. Find the second largest number in a list
+15. Check if all/any/none elements match a condition
+16. Find duplicate elements in a list
+17. Flatten a list of lists into a single list
+18. Group elements by a criterion, e.g., strings by length
+19. Work with custom objects: find the employee with the highest salary
+20. Work with custom objects: group employees by department or other attribute
+
+
+PRACTICE STREAM API QUESTIONS
+1. Filter all even numbers from a list
+2. Filter all odd numbers from a list
+3. Find the maximum element in a list of integers
+4. Find the minimum element in a list of integers
+5. Find the sum of all elements in a list
+6. Calculate the average of all elements in a list
+7. Count the number of elements in a list
+8. Remove duplicate elements from a list
+9. Sort a list of integers in ascending order
+10. Sort a list of integers in descending order
+11. Map numbers to their squares
+12. Map numbers to their cubes
+13. Filter strings longer than 5 characters
+14. Filter strings starting with a specific letter
+15. Concatenate all strings in a list into a single string
+16. Group strings by their length
+17. Count the occurrences of each element in a list
+18. Count the occurrences of each word in a list of strings
+19. Find all numbers greater than the average
+20. Find the second largest number in a list
+21. Check if all elements match a condition
+22. Check if any element matches a condition
+23. Check if no elements match a condition
+24. Limit the number of elements processed in a stream
+25. Skip the first N elements in a stream
+26. Flatten a list of lists into a single list
+27. Partition a list of integers into even and odd numbers
+28. Find the mode (most frequent element) in a list of integers
+29. Calculate the sum of squares of all elements
+30. Calculate the sum of cubes of all elements
+31. Calculate the sum of all prime numbers in a list
+32. Calculate the sum of elements at even indices
+33. Calculate the sum of elements at odd indices
+34. Calculate the sum of elements greater than a specified value
+35. Perform operations using parallel streams (sum, max, min, sort)
+36. Filter elements using parallel streams
+37. Map elements using parallel streams
+38. Collect elements into a set using parallel streams
+39. Group elements by a criterion using parallel streams
+40. Perform reduction using parallel streams
+41. Group employees by department (custom object)
+42. Find the employee with the highest salary (custom object)
+43. Find the employee with the lowest salary (custom object)
+44. List all employee names (custom object)
+45. Count employees by department (custom object)
+46. Sort employees by salary ascending (custom object)
+47. Filter employees older than a specified age (custom object)
+48. Find an employee by ID (custom object)
+49. Update the salary of all employees by a percentage (custom object)
+50. Remove employees with performance rating below a threshold (custom object)
